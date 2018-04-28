@@ -1,0 +1,39 @@
+#内存队列缓存数据条数
+appconfig:
+  queueSize: 5000
+pullconfig:
+  configMap:
+  #接口数据的地址
+    url: http://10.150.27.42:8888/dahuaIS/rest/dprecord/search?q=
+    batchSize: 500
+    startIdFile: /config/startId.txt
+    urlencode: true
+  heads:
+    Content-Type: application/json; charset=UTF-8
+    Accept: application/json
+    authorization: YFT
+pushconfig:
+  configMap:
+    template: /config/template/2webservice.xml
+    #推送数据的接口地址
+    url: http://10.150.27.42:8888/tvc-webservice/services/TgsService
+    threadPoolSize: 10
+  heads:
+    Content-Type: text/xml; charset=UTF-8
+    SOAPAction: null
+    #字典所在数据库
+dbconfig: 
+  datasource:
+    url: jdbc:oracle:thin:@10.2.25.239:1521:PROD
+    username: EHL_ANALYSIS
+    password: ehl1234
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    #web服务启动端口
+server:
+  port: 9998
+logging.config: classpath:config/logback.xml
+banner:
+  location: config/welcome.ehl
+spring:
+  application:
+    name: tvcservice2wfservice

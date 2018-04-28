@@ -1,0 +1,62 @@
+{"properties": [
+  {
+    "name": "violation.thread",
+    "type": "java.util.HashMap",
+    "description": "A description for 'violation.thread.coresize'"
+  },
+  {
+    "name": "violation.work.version",
+    "type": "java.lang.String",
+    "description": "A description for 'violation.work.version'"
+  },
+  {
+    "name": "violation.work.coresize",
+    "type": "java.lang.String",
+    "description": "A description for 'violation.work.coresize'"
+  },
+  {
+    "name": "violation.work.sleeptime",
+    "type": "java.lang.String",
+    "description": "A description for 'violation.work.sleeptime'"
+  },
+  {
+    "name": "violation.work.batchsize",
+    "type": "java.lang.String",
+    "description": "A description for 'violation.work.batchsize'"
+  },
+  {
+    "name": "violation.work.timeout",
+    "type": "java.lang.String",
+    "description": "A description for 'violation.work.timeout'"
+  },
+  {
+    "name": "violation.work.works",
+    "type": "java.util.List",
+    "description": "A description for 'violation.work.works'"
+  },
+  {
+    "name": "violation.work.heads.Content-Type",
+    "type": "java.lang.String",
+    "description": "A description for 'violation.work.heads.Content-Type'"
+  },
+  {
+    "name": "violation.work.heads.-sOAPAction",
+    "type": "java.lang.String",
+    "description": "A description for 'violation.work.heads.-sOAPAction'"
+  },
+  {
+    "name": "violation.work.heads.-sOAPAction",
+    "type": "java.lang.String",
+    "description": "A description for 'violation.work.heads.-sOAPAction'"
+  },
+  {
+    "name": "violation.work.heads.-sOAPAction",
+    "type": "java.lang.String",
+    "description": "A description for 'violation.work.heads.-sOAPAction'"
+  },
+  {
+    "name": "violation.work.heads.-sOAPAction",
+    "type": "java.lang.String",
+    "description": "A description for 'violation.work.heads.-sOAPAction'"
+  }
+]}

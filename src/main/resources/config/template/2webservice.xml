@@ -1,0 +1,51 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:ser="http://service.global.tircp.ehl.com/">
+	<soapenv:Header />
+	<soapenv:Body>
+		<ser:writeObjectOut>
+			<arg0>71</arg0>
+			<arg1>7C1F1D0A010701050815040070060B02080609040208676870746D72692E636E</arg1>
+			<arg2>71C02</arg2>
+			<arg3>
+			<![CDATA[
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<tvmr>
+		<version>1.0</version>
+		<SBBH>${devChnId}</SBBH>
+		<HPZL>${carType}</HPZL> 
+		<HPHM>${carNum}</HPHM>
+		<WFXW>${recType}</WFXW>
+		<WFSJ>${capDate}</WFSJ>
+		<WFDD>${WFDD}</WFDD>
+		<WFDZ>${devChnName}</WFDZ>
+		<CDBH>${carWayCode}</CDBH>
+		<CLSD></CLSD>
+		<CLXS></CLXS>
+		<HPTZTP></HPTZTP>
+		<JSRTZTP></JSRTZTP>
+		<ZJWJ1>${combinedPicUrl}</ZJWJ1>
+		<ZJWJ2></ZJWJ2>
+		<ZJWJ3></ZJWJ3>
+		<ZJWJ4></ZJWJ4>
+		<SPLJ></SPLJ>
+		<CJFS>2</CJFS>
+		<CJJG>${CJJG}</CJJG>
+		<SFQJ>00</SFQJ>
+		<KSWFSJ></KSWFSJ>
+		<KSWFDD></KSWFDD>
+		<KSWFDZ></KSWFDZ>
+		<QJJL></QJJL>
+		<QJYS></QJYS>
+		<CSBL></CSBL>
+		<ZPSL>1</ZPSL>
+		<ZPWJM></ZPWJM>
+		<FXBH>${carDirect}</FXBH>
+		<BZ></BZ>
+	</tvmr>
+</root>
+]]>
+			</arg3>
+		</ser:writeObjectOut>
+	</soapenv:Body>
+</soapenv:Envelope>
